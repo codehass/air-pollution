@@ -60,7 +60,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](...)
+- [Live Demo Link](https://air-pollution-5kp2.onrender.com/)
+- [Video Link](https://www.loom.com/share/f8ec5db8306141bf94ace7e0af31a026)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
