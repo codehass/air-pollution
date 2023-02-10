@@ -163,7 +163,7 @@ If you like this project give us ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my partner.
+I would like to thank [ Nelson Sakwa on behance](https://www.behance.net/sakwadesignstudio) for the design inspiration.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
