@@ -1,5 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import Axios from 'axios';
+import instance from './utiles';
 
 // Actions
 const FETCH_COUNTRIES = 'countries/FETCH_COUNTRIES';
@@ -23,7 +23,7 @@ export default function countriesReducer(state = initialState, action) {
 export const getCountries = createAsyncThunk(
   FETCH_COUNTRIES,
   async (_, { dispatch }) => {
-    const response = await Axios.get(URL);
+    const response = await instance.get(URL);
     dispatch({
       type: FETCH_COUNTRIES,
       payload: response.data,
