@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.county-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 1200px;
+  padding: 30px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  min-width: 320px;
+}
+
+.item-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+ul li div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 20px;
+}
+
+.pollution-container {
+  width: 100%;
+}
+
+.percent {
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ccc;
+}
+
+@media only screen and (max-width: 640px) {
+  body {
+    background-color: #d2457a;
+    color: #d2457a;
+    color: #fff;
+  }
+
+  .county-container {
+    padding: 0;
+    width: 100%;
+    background-color: #d2457a;
+    border: none;
+    box-shadow: none;
+  }
+
+  .county-infos {
+    width: 100%;
+  }
+
+  .county-infos h1 {
+    background-color: #fa4f91;
+  }
+
+  .item-info {
+    background: #fa4f91;
+  }
+
+  .item-info:nth-child(2n) {
+    background: #d2457a;
+  }
+
+  .pollution-container {
+    background-color: #d2457a;
+  }
+
+  ul li {
+    background: #fa4f91;
+  }
+
+  ul li:nth-child(2n) {
+    background: #d2457a;
+  }
+}
